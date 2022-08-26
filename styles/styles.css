@@ -2,8 +2,41 @@ h1,
 h2 {
   text-align: center;
 }
+
 a {
   display: block;
   margin-left: 20px;
   margin-top: 10px;
+}
+
+body {
+  font-family: sans-serif, Arial, verdana;
+  font-size: 12.5px;
+}
+
+caption {
+  text-align: left;
+  font-size: large;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.tamil {
+  display: none;
+}
+
+.english {
+  display: block;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+}
+
+.level-col {
+  text-align: center;
 }
