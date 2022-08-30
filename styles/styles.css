@@ -34,7 +34,7 @@ caption {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 100px;
-  justify-content: center;
+  justify-content: left;
 }
 
 .level-col {
